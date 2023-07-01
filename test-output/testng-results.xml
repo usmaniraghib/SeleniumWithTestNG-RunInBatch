@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16238" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16238" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+      <class name="com.raghib.selenium.testng.TestNgWithXmlClassOne">
+        <test-method status="PASS" signature="testA()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testA" duration-ms="16181" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testB" duration-ms="2" started-at="2021-03-31T22:04:38 IST" finished-at="2021-03-31T22:04:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="testC()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testC" duration-ms="0" started-at="2021-03-31T22:04:38 IST" finished-at="2021-03-31T22:04:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+      </class> <!-- com.raghib.selenium.testng.TestNgWithXmlClassOne -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
