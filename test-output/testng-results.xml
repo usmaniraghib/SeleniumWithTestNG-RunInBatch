@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16238" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+  <suite started-at="2023-07-13T15:49:58 IST" name="Suite" finished-at="2023-07-13T15:50:03 IST" duration-ms="5812">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16238" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+    <test started-at="2023-07-13T15:49:58 IST" name="Test" finished-at="2023-07-13T15:50:03 IST" duration-ms="5812">
       <class name="com.raghib.selenium.testng.TestNgWithXmlClassOne">
-        <test-method status="PASS" signature="testA()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testA" duration-ms="16181" started-at="2021-03-31T22:04:21 IST" finished-at="2021-03-31T22:04:38 IST">
+        <test-method signature="testA()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@72f926e6]" started-at="2023-07-13T15:49:58 IST" name="testA" finished-at="2023-07-13T15:50:03 IST" duration-ms="5732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testB" duration-ms="2" started-at="2021-03-31T22:04:38 IST" finished-at="2021-03-31T22:04:38 IST">
+        <test-method signature="testB()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@72f926e6]" started-at="2023-07-13T15:50:03 IST" name="testB" finished-at="2023-07-13T15:50:03 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
-        <test-method status="PASS" signature="testC()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@5cc7c2a6]" name="testC" duration-ms="0" started-at="2021-03-31T22:04:38 IST" finished-at="2021-03-31T22:04:38 IST">
+        <test-method signature="testC()[pri:0, instance:com.raghib.selenium.testng.TestNgWithXmlClassOne@72f926e6]" started-at="2023-07-13T15:50:03 IST" name="testC" finished-at="2023-07-13T15:50:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testC -->
