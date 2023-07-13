@@ -10,7 +10,7 @@ public class TestNgWithXmlClassOne {
   @Test
   public void testA() {
 	System.out.println("Welcome to Selenium With TestNG Project");
-	System.setProperty("webdriver.chrome.driver","C:\\SELENIUM\\browser-driver\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com/");
