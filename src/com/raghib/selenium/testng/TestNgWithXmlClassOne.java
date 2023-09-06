@@ -1,30 +1,35 @@
 package com.raghib.selenium.testng;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestNgWithXmlClassOne {
-	
-  @Test
-  public void testA() {
-	System.out.println("Welcome to Selenium With TestNG Project");
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
-	WebDriver driver = new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.get("https://www.google.com/");
-	driver.quit();	
-  }
-  
-  @Test
-  public void testC() {
-	  Assert.assertEquals("Gmail", "Gmail");
-  }
-  
-  @Test
-  public void testB() {
-	  Assert.assertEquals("Yahoo", "Yahoo");
-  }
+public class TestNgWithXmlClassOne extends BaseClass {
+
+	public static WebDriver driver;
+	public static String browserName = "chrome";
+	public static String browserVersion = "116";
+	public static String url = "https://www.google.com/";
+
+	@Test
+	public void testA() {
+		// Chrome Browser
+		driver = BaseClass.getDriver(browserName, browserVersion);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().window().maximize();
+		driver.get(url);
+		driver.quit();
+	}
+
+	@Test
+	public void testC() {
+		Assert.assertEquals("Gmail", "Gmail");
+	}
+
+	@Test
+	public void testB() {
+		Assert.assertEquals("Yahoo", "Yahoo");
+	}
 }
- 
